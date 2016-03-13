@@ -23,4 +23,8 @@ class Transaction
     @@transactions[number - 1]
   end
 
+  def self.return_item number
+    @@transactions[number - 1].product.return_item
+    @@transactions.delete_at(number - 1)
+  end
 end

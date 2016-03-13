@@ -1,0 +1,17 @@
+1. How long did you spend working on this project?
+  All and all I spent about 4 hours working on this project
+
+2. What was the most rewarding challenge you conquered?
+  Working with classes was the hardest bit of this course so far and I
+  am happy that I have a decent grip on it so far.
+
+3. What two additional features did you build? Why?
+  I built a return_item method that I added to the Transaction class,
+  because returns happen, and I also added age and email attributes to
+  instances of the Customer class, because it is better to have more
+  data on a customer than a name (age for data mining, email to contact).
+
+4. Where do you still have room to grow?
+  Everywhere, at least that's how I feel. Arrays and Hashes feel much more
+  comfortable than before, and classes are coming along. I think I just need
+  to keep building things.

@@ -1,10 +1,12 @@
 class Customer
-  attr_reader :name
+  attr_reader :name, :age, :email
 
   @@customers = []
 
   def initialize(options={})
     @name = options[:name]
+    @age = options[:age]
+    @email = options[:email]
     add_to_customers
   end
 
